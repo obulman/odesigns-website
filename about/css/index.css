@@ -1,0 +1,249 @@
+body {
+	background-color: #F6F8FF;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	margin: 0;
+}
+h1,h2,h3,li{
+	font-family: 'Quicksand', sans-serif;
+}
+header{
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+nav {
+	width: 100%;
+	height: 70px;
+	background: linear-gradient(to top, #000000db, #08011c), url("images/navback.jpg") no-repeat top center;
+}
+nav figure{
+	float: left;
+	margin: 0;
+	padding: 5px;
+	padding-left: 60px;
+	height: 60px;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding-top: 0px;
+}
+nav ul li{
+	float: right;
+	padding: 20px;
+	font-weight: 500;
+	font-size: 25px;
+	list-style: none;
+}
+nav ul li:first-child{
+	padding-right: 60px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #F6F8FF;
+}
+nav li a:hover{
+	text-decoration: underline;
+	color: #FDE365;
+}
+
+
+p{
+	font-size: 1.28rem;
+	font-weight: 400;
+}
+h2{
+	font-size: 2rem;
+	color:#962CDF ;
+}
+
+
+#backel1{
+	width: 900px;
+	height: 380px;
+	background-color: #962CDF;
+	position: relative;
+	left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 0;
+}
+#moon{
+	position: absolute;
+	top: 255px;
+	left: 40%;
+    transform: translate(-50%, 0);
+	width: 60px;
+}
+h1{
+	position: absolute;
+	left: 50%;
+	top: 220px;
+	color: #FDE365;
+    transform: translate(-50%, 0);
+    font-size: 3rem;
+}
+#sun{
+	position: absolute;
+	top: 255px;
+	right: 37%;
+    transform: translate(-50%, 0);
+	width: 60px;
+}
+#headpar{
+	position: absolute;
+	width: 800px;
+	left: 50%;
+	top: 320px;
+	color:#F6F8FF;
+    transform: translate(-50%, 0);
+}
+
+
+#mystory{
+	margin: 0;
+	width: 80%;
+	padding: 60px;
+	padding-left: 15%;
+	height: 600px;
+}
+#mystory img{
+	width: 45%;
+	float: left;
+	margin-right: 20px;
+}
+#mystory h2{
+	float: left;
+	width: 30%;
+}
+#mystory p{
+	float: left;
+	width: 40%;
+}
+
+
+
+#skills{
+	width: 100%;
+	margin: 0;
+}
+#skills h2{
+	text-align: center;
+}
+#skills table{
+	width: 100%;
+	padding: 0 10%;
+}
+.hard{
+	background-color: #962CDF;
+	color: #FDE365;
+	padding: 15px 30px;
+	margin: 5px;
+}
+.soft{
+	background-color: #FDE365;
+	color: #962CDF;
+	padding: 15px 30px;
+	margin: 5px;
+}
+#legend{
+	width: 25%;
+	margin: 30px 0;
+	margin-bottom: 120px;
+}
+#legend tr td{
+	text-align: center;
+}
+
+
+#process{
+	width: 100%;
+	margin: 0;
+}
+#process h2{
+	text-align: center;
+}
+#process img{
+	width: 80%;
+	margin-left: 9.99%;
+}
+#process table{
+	width: 78.9%;
+	margin-left: 10.5%;
+}
+#process table tr td{
+	width: 120px;
+}
+
+
+
+#faq{
+	width: 70%;
+	margin-left: 9.99%;
+	background-color: #111511;
+	padding: 5%;
+	margin-top: 120px;
+	margin-bottom: 200px;
+	color: #F6F8FF;
+}
+#faq p strong{
+	color: #FDE365;
+}
+
+footer {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 220px;
+	background: linear-gradient(to top, #000000db, #08011c), url("images/footback.jpg") no-repeat top center;
+}
+footer figure{
+	float: left;
+	margin: 0;
+	padding: 80px;
+	padding-left: 60px;
+	height: 60px;
+}
+footer figure a img{
+	width: 100px;
+}
+footer div ul {
+	float: left;
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+#topfoot{
+	padding-top: 55px;
+}
+#bottomfoot{
+	margin-top: 60px;
+}
+footer div ul li{
+	float: left;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	list-style: none;
+	color: white;
+}
+footer div ul li a{
+	text-decoration: none;
+	color: #F6F8FF;
+}
+footer div li a:hover{
+	text-decoration: underline;
+	color: #FDE365;
+}
+#footline{
+	position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 634px;
+}
+#bye {
+	margin: 0;
+	padding: 0;
+	bottom: 80px;
+	position: absolute;
+	right: 0;
+}
