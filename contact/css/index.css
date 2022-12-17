@@ -1,0 +1,276 @@
+body {
+	background-color: #F6F8FF;
+	background: url("../images/conback.png") no-repeat top center;
+	background-size: 100% 215vh;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	margin: 0;
+}
+h1,h2,h3,li{
+	font-family: 'Quicksand', sans-serif;
+}
+header{
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+nav {
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top, #000000db, #08011c), url("images/navback.jpg") no-repeat top center;
+}
+nav figure{
+	float: left;
+	margin: 0;
+	padding: 20px;
+	padding-left: 60px;
+	height: 60px;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding-top: 15px;
+}
+nav ul li{
+	float: right;
+	padding: 20px;
+	font-weight: 500;
+	font-size: 25px;
+	list-style: none;
+}
+nav ul li:first-child{
+	padding-right: 60px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #F6F8FF;
+}
+nav li a:hover{
+	text-decoration: underline;
+	color: #FDE365;
+}
+
+
+main{
+	height: 180vh;
+}
+
+
+#contactinfo{
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 100%;
+	color: #F6F8FF;
+	float: left;
+}
+#contactinfo h2{
+	font-size: 2.5rem;
+	color: #FDE365;
+	margin: 0;
+}
+#contactinfo ul{
+	list-style: none;
+	padding: 0;
+}
+#contactinfo ul li{
+	font-size: 1.25rem;
+}
+#contactinfo ul li a{
+	text-decoration: none;
+	color: #F6F8FF;
+}
+#contactinfo ul li a img{
+	height: 60px;
+	padding: 15px 20px;
+	padding-left: 0px;
+	float: left;
+}
+#contactinfo ul li a img:hover{
+	filter: brightness(1.5);
+}
+
+#servicecart{
+	position: absolute;
+	right: 0;
+	height: 100vh;
+}
+
+aside{
+	float: left;
+	margin-top: 15vh;
+}
+aside img{
+	position: absolute;
+	width: 500px;
+}
+aside a{
+	text-decoration: none;
+}
+aside a:hover{
+	filter: brightness(1.5);
+}
+aside a:visited{
+	color: #962CDF;
+}
+aside h2{
+	position: relative;
+	color: #962CDF;
+	rotate: -2.61deg;
+	margin-top: 80px;
+	margin-left: 80px;
+	font-size: 3rem;
+}
+aside h3 {
+	position: relative;
+	color: #962CDF;
+	margin-top: 110px;
+	margin-left: 130px;
+	font-size: 2rem;
+}
+
+#formcard{
+	background-color: #FDE365;
+	position: absolute;
+	width: 60%;
+	height: 60%;
+	margin-top: 110vh;
+	margin-left: 20%;
+	border-radius: 11px;
+}
+#formcard article form{
+	padding: 4%;
+}
+#formcard article form select{
+	height: 55px;
+	width: 38.5%;
+	background-color: #111511;
+	color: #FFFFFF;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 900;
+	font-size: 1.25rem;
+	border-radius: 11px;
+	appearance: none;
+	background-image: url(../images/double.png);
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: calc(100% - 3px) center;
+	border: 0;
+}
+}
+#formcard article form select:focus{
+	outline: 3px solid #962CDF;
+	border-radius: 0;
+}
+#formcard article form select option:focus{
+	background-color: #962CDF;
+}
+#formcard article form input{
+	height: 50px;
+	border-radius: 6.5px;
+	padding: 0 2.5%;
+	font-size: 1.25rem;
+	outline: 3px solid #A19E9E;
+	border: 0;
+}
+#formcard article form input:focus{
+	outline: 3px solid #962CDF;
+}
+#name{
+	width: 53.193%;
+	margin-bottom: 1.5%;
+	margin-left: 1%;
+}
+#subject{
+	width: 47.3%;
+	margin-right: 1%;
+}
+#email{
+	width: 38.5%;
+	margin-left: 1%;
+	margin-bottom: 1.5%
+}
+textarea{
+	width: 94.5%;
+	border-radius: 6.5px;
+	height: 12em;
+	margin-bottom: 1.5%;
+	padding: 2.5%;
+	padding-bottom: 0;
+	font-size: 1.25rem;
+	outline: 3px solid #A19E9E;
+	border: 0;
+}
+textarea:focus{
+	outline: 3px solid #962CDF;	
+}
+.button{
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	background-color: #962CDF;
+	border: 0;
+	cursor: pointer;
+}
+
+
+footer {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 220px;
+	background: linear-gradient(to top, #000000db, #08011c), url("images/footback.jpg") no-repeat top center;
+}
+footer figure{
+	float: left;
+	margin: 0;
+	padding: 80px;
+	padding-left: 60px;
+	height: 60px;
+}
+footer figure a img{
+	width: 100px;
+}
+footer div ul {
+	float: left;
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+#topfoot{
+	padding-top: 55px;
+}
+#bottomfoot{
+	margin-top: 60px;
+}
+footer div ul li{
+	float: left;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	list-style: none;
+	color: white;
+}
+footer div ul li a{
+	text-decoration: none;
+	color: #F6F8FF;
+}
+footer div li a:hover{
+	text-decoration: underline;
+	color: #FDE365;
+}
+#footline{
+	position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 634px;
+}
+#bye {
+	margin: 0;
+	padding: 0;
+	bottom: 80px;
+	position: absolute;
+	right: 0;
+}
